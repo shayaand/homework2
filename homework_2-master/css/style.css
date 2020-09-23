@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+    font-family: 'Lucia Grande', sans-serif;
+  }
+  
+  h1 {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 64px;
+    text-align: center;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 5px 5px 2px #808080;
+  }
+ p {
+  color: #ffffff;
+   font-size: 24px;
+   padding-top: 20px;
+ }
+ 
+ div {
+   
+  height: 150px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  
+ }
+ div#red {
+  background-color: #ff0000;
+  text-align: right;
+ }
+ div#blue {
+   background-color:#0000ff;
+   text-align: left;
+ }
+ div#yellow {
+   background-color: #ffff00;
+   text-align: right;
+   }
+   div#yellow > h2 {
+     color: #000000;
+     text-shadow: 5px 5px 2px #c7e2c7;
+   }
+   div#yellow > p {
+     color: #000000;
+   }
+div#green {
+  background-color:#008000;
+  text-align: left;
+}
+footer {
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+ 
